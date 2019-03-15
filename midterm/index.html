@@ -5,7 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ET-710 Midterm</title>
+
+
+
 </--Begin AngularJS-->
+ <script src="js/vendor/angular-1.7.7/angular.min.js"></script>
+<script src="js/vendor/angular-1.7.7/angular-animate.min.js"></script>
+ <script src="js/vendor/angular-1.7.7/angular-route.min.js"></script>
+
 </--End AngularJs-->
 
 
@@ -28,6 +35,13 @@
 
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/subnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+
   </head>
   <body>
   </--Begin Nav-->
@@ -46,6 +60,12 @@
 
 </--Begin Content-->
 </--Begin AngularJS-->
+<div>
+    <label>Name:</label>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello {{yourName}}!</h1>
+  </div>
 </--End AngularJS-->
 </--End Content-->
 
